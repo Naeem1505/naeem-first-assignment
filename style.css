@@ -1,0 +1,219 @@
+body{
+
+padding: 0;
+margin: 0;
+background: #f1f1f1;
+
+}
+
+.header-container{
+
+    position: relative;
+}
+
+.header-container img{
+
+    width: 100%;
+
+}
+
+.header-text{
+
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    text-align: right;
+    margin-right: 170px;
+    height: 700px;
+    
+}
+
+
+.contact-button{
+
+    height: 70px;
+    border-radius: 10px;
+    background-color: forestgreen;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    padding: 7px;
+    border: 0px;
+   
+}
+
+.section-container{
+
+    position: relative;
+}
+
+.section-container img{
+
+    width: 50%;
+    border-radius: 50%;
+  
+}
+
+.section-text{
+
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    text-align: right;
+    margin-right: 170px;
+   
+}
+
+ul li{
+
+    list-style: none;
+}
+
+.my-plan{
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.container{
+
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    
+}
+
+.box{
+
+    width: 20%;
+    margin: 5px;
+    background:rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+.thired-container{
+
+    background: url(./watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 300px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    background-size: 100%;
+    margin: 70px 70px;
+    border-radius: 10px;
+  
+
+
+
+
+}
+
+.thired-container-heading{
+
+    font-size: 35PX;
+    font-weight: 800;
+    z-index: 5;
+    margin-top:0;
+    position: relative;
+    margin-left: 90px;
+}
+
+.thired-container-button{
+
+    font-size: 35px;
+    font-weight: 800;
+    z-index: 5;
+    margin: auto;
+    color: #F15B22;
+    background-color: rgb(254, 254, 254);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 90px;
+
+
+}
+
+.color-overlay{
+
+    
+background: linear-gradient(to top right,#f04806, #d69a82);
+background-size: 100%;
+width: 100%;
+height: 100%;
+opacity: .6;
+position: absolute;
+border-radius: 10px;
+
+
+}
+
+/* Footer */
+
+.footer-container{
+
+    background-color: black;
+    position: relative;
+    display: flex;
+    padding: 60px;
+}
+
+.footer-container-left-side{
+
+    color: white;
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+    
+  
+}
+
+.footer-container-right-side{
+
+    color: white;
+    width: 49%;
+    text-align: left;
+    font-size: 25px;
+    text-align: right;
+    
+  
+}
+
+.footer-button{
+
+    background: white;
+    color: #f04806;
+    padding: 8px;
+    font-size:25px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
